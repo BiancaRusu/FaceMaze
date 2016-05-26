@@ -17,3 +17,13 @@ Route::get('/', function () {
 Route::get('/connect', function(){
     return view('pages/facebook');
 });
+
+Route::get('/gamePage', function(){
+    return view('pages/gamePage');
+});
+Route::get('/highscore', function(){
+    return view('pages/highscore');
+});
+Route::auth();
+
+Route::get('/home', 'HomeController@index');

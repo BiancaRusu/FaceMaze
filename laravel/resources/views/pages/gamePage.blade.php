@@ -28,9 +28,11 @@ a.button {
         <div class="container">
             <div class="content">
                 <font><div class="title">Tw Face Maze</div></font>
-                <img src="images.png" border="100px">
                 <div class="wrapper">
-                <a href="https://facebook.com/" class="button">Connect with Facebook</a>
+                <a class="button">Play Game </a>
+                </div>
+                <div class="wrapper">
+                <a  href="http://localhost:8000/highscore" class="button">HighScore </a>
                 </div>
             </div>
         </div>

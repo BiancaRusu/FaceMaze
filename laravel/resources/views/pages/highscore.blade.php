@@ -14,7 +14,15 @@ font{
 .wrapper {
     text-align: center;
 }
-
+sub { 
+    vertical-align: sub;
+    font-size: 30px;
+    color : yellow;
+}
+h1{
+    font-size:20px;
+     color: pink;
+}
 a.button {
     position: relative;
     background : blue ; 
@@ -28,9 +36,9 @@ a.button {
         <div class="container">
             <div class="content">
                 <font><div class="title">Tw Face Maze</div></font>
-                <img src="images.png" border="100px">
-                <div class="wrapper">
-                <a href="https://facebook.com/" class="button">Connect with Facebook</a>
+                <p><sub>High Score list</p></sub>
+                <h1>1.Rusu Bianca ->365 pct </h1>
+                <h1>2.Costan Razvan ->190 pct </h1>
                 </div>
             </div>
         </div>
